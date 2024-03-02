@@ -1,11 +1,9 @@
 # TsConfig
 
 ## target: Define la versión de ECMAScript a la que se compilará el código TypeScript. Puedes elegir entre "es5", "es6", "es2015", "es2016", etc. Cuanto mayor sea la versión, más características de ECMAScript estarán disponibles, pero ten en cuenta que ciertos navegadores pueden no admitir versiones más recientes.
-
 "target": "es2018"
 
 ## module: Define el sistema de módulos que se utilizará. Puedes optar por "commonjs", "amd", "umd", "system", o "esnext", entre otros. En un proyecto de Angular, es común usar "esnext" para aprovechar las características de ES6 y posterior.
-
 "module": "esnext"
 
 ## strict: Habilita o deshabilita un conjunto de opciones estrictas de TypeScript que te ayudan a detectar más errores en tu código durante el tiempo de compilación. Recomendado para proyectos grandes y mantenibles.
